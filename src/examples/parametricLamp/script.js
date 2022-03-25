@@ -32,7 +32,7 @@ const widthmiddle_slider = document.getElementById("widthmiddle");
 widthmiddle_slider.addEventListener("mouseup", onSliderChange, false);
 widthmiddle_slider.addEventListener("touchend", onSliderChange, false);
 
-const widthwoodslices_slider = document.getElementById("widtwoodslices");
+const widthwoodslices_slider = document.getElementById("widthwoodslices");
 widthwoodslices_slider.addEventListener("mouseup", onSliderChange, false);
 widthwoodslices_slider.addEventListener("touchend", onSliderChange, false);
 
