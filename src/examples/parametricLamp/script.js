@@ -125,15 +125,15 @@ async function compute() {
   document.getElementById("loader").style.display = "none";
 
   //decode grasshopper objects and put them into a rhino document
-  for (let i = 0; i < res.values.length; i++) {
-    for (const [key, value] of Object.entries(res.values[i].InnerTree)) {
-      for (const d of value) {
-        const data = JSON.parse(d.data);
-        const rhinoObject = rhino.CommonObject.decode(data);
-        doc.objects().add(rhinoObject, null);
-      }
-    }
-  }
+  //for (let i = 0; i < res.values.length; i++) {
+    //for (const [key, value] of Object.entries(res.values[i].InnerTree)) {
+     // for (const d of value) {
+       // const data = JSON.parse(d.data);
+       // const rhinoObject = rhino.CommonObject.decode(data);
+        //doc.objects().add(rhinoObject, null);
+     // }
+    //}
+  //}
 
 
 
