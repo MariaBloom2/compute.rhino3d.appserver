@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>PARAMETRIC LAMP DIY! Choose your favourite shape!</title>
+        <link rel="stylesheet" href="main.css">
+        <style>
+            body { margin: 0; font-family: Arial, Helvetica, sans-serif; }
+            input {width: 90%;}
+            #container {position: relative;}
+            #overlay {z-index: 1; width: 100%}
+
+            #loader {
+                border: 5px solid #f3f3f3; /* Light grey */
+                border-top: 5px solid #3d3d3d; /* Grey */
+                border-radius: 50%;
+                width: 40px;
+                
+                height: 40px;
+                animation: spin 1s linear infinite;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                z-index: 2;
+            }
+
+            @keyframes spin {
+                0% { transform: rotate(0deg); }
+                100% { transform: rotate(360deg); }
+            }
+        </style>
+    
+    </head>
+    <body>
+
+        <div id="info">
+            <br/>
+            PARAMETRIC LAMP<br/>
+            <br/>
+
+            Which is your favourite shape?<br/>
+            
+            Start moving the sliders and pick your favourite one!<br/>
+        </div>
+
+    
+        <div id="loader"></div> 
+        <div id="container">
+            <div id="overlay">
+                <div>
+                    <input type="range" id="totalwidth" name="totalwidth" min="7" max="15" value="10" step="1">
+                    <label for="totalwidth">Total width</label>
+                </div>
+                <br/>
+                <div>
+                    <input type="range" id="edgestopview" name="edgestopview" min="3" max="6" value="6" step="1">
+                    <label for="edgestopview">Edges top view</label>
+                </div>
+                <br/>
+                <div>
+                    <input type="range" id="totalheight" name="totalheight" min="3" max="9" value="6" step="1">
+                    <label for="totalheight">Total height</label>
+                </div>
+                <br/>
+                <div>
+                    <input type="range" id="rotationzaxis" name="rotationzaxis" min="0.0" max="1.4" value="1.0" step="0.1">
+                    <label for="rotationzaxis">Rotation z axis</label>
+                </div>
+                <br/>
+                <div>
+                    <input type="range" id="widthupanddown" name="widthupanddown" min="0.5" max="1.5" value="0.8" step="0.1">
+                    <label for="widthupanddown">Width up & down</label>
+                </div>
+                <br/>
+                <div>
+                    <input type="range" id="widthmiddle" name="widthmiddle" min="1.2" max="2.2" value="1.7" step="0.1">
+                    <label for="widthmiddle">Width middle</label>
+                </div>
+                <br/>
+                <div>      
+                    <input type="range" id="densitywoodslices" name="densitywoodslices" min="10" max="16" value="10" step="1">
+                    <label for="densitywoodslices">Density wood slices</label>
+                </div>
+                <br/>
+                <div>
+                    <input type="range" id="widthwoodslices" name="widthwoodslices" min="0.7" max="1.7" value="0.8" step="0.1">
+                    <label for="widthwoodslices">Width wood slices</label>
+                </div>
+                <br/>
+                <din>
+                    <input type="range" id="thicknesswoodslices" name="thicknesswoodslices" min="0.8" max="1.8" value="0.9" step="0.1">
+                    <label for="thicknesswoodslices">Thickness wood slices</label>
+                </din>
+                
+    </div>              
+
+            </div>
+        </div>
+        <script type="module" src="script.js"></script>
+
+
+
+    </body>
+</html>

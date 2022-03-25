@@ -1,0 +1,52 @@
+html{
+    background-color: rgb(234, 0, 255);
+    color: white;
+    font-family:Impact, Haettenschweiler, 'Arial', sans-serif;
+    font-size: 25pt;
+    text-align: center;
+
+}
+
+#container {
+    position: absolute;
+    z-index: 100;
+    bottom: 5px;
+    right: 5px;
+    margin: 10px;
+    padding: 15px;
+    background-color: rgb(54, 21, 199);
+    color: white;
+    width: 200px;
+    font-family: monospace;
+    font-size: 10pt;
+    text-align: justify;
+}
+
+table { border: none; border-collapse: collapse; }
+     table td {
+        border-left: 1px dotted white;
+        padding: 8px;
+     }
+table td:first-child { border-left: none; }
+
+button{
+    position: center;
+    background: mediumvioletred;
+    border: none;
+    outline: none;
+    font-size: 12pt;
+    font-family: monospace;
+    color: white;
+    text-transform: lowercase;
+    cursor: pointer;
+}
+
+button:hover{
+    background: black;
+}
+
+.SLIDER {
+    margin: 0px auto;
+    width: 50%;
+}
+
