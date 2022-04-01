@@ -48,50 +48,45 @@
         <div id="container">
             <div id="overlay">
                 <div>
-                    <input type="range" id="totalwidth" name="totalwidth" min="7" max="15" value="10" step="1">
-                    <label for="totalwidth">Total width</label>
+                  <label for="Thickness wood slices">Thickness wood slices</label>
+                  <input type="range" id="Thickness wood slices" min="0.8" max="1.1" value="1.1" step="1">
                 </div>
-                <br/>
                 <div>
-                    <input type="range" id="edgestopview" name="edgestopview" min="3" max="6" value="6" step="1">
-                    <label for="edgestopview">Edges top view</label>
+                  <label for="Total width">Total width</label>
+                  <input type="range" id="Total width" min="70" max="90" value="79" step="1">
                 </div>
-                <br/>
                 <div>
-                    <input type="range" id="totalheight" name="totalheight" min="3" max="9" value="6" step="1">
-                    <label for="totalheight">Total height</label>
+                  <label for="Density wood slices">Density wood slices</label>
+                  <input type="range" id="Density wood slices" min="50" max="70" value="50" step="1">
                 </div>
-                <br/>
                 <div>
-                    <input type="range" id="rotationzaxis" name="rotationzaxis" min="0.0" max="1.4" value="1.0" step="0.1">
-                    <label for="rotationzaxis">Rotation z axis</label>
+                  <label for="Edges top view">Edges top view</label>
+                  <input type="range" id="Edges top view" min="3" max="6" value="6" step="1">
                 </div>
-                <br/>
                 <div>
-                    <input type="range" id="widthupanddown" name="widthupanddown" min="0.5" max="1.5" value="0.8" step="0.1">
-                    <label for="widthupanddown">Width up & down</label>
+                  <label for="Total height">Total height</label>
+                  <input type="range" id="Total height" min="600" max="900" value="601" step="1">
                 </div>
-                <br/>
                 <div>
-                    <input type="range" id="widthmiddle" name="widthmiddle" min="1.2" max="2.2" value="1.7" step="0.1">
-                    <label for="widthmiddle">Width middle</label>
+                  <label for="Rotation z axis">Rotation z axis</label>
+                  <input type="range" id="Rotation z axis" min="0" max="1.4" value="1" step="1">
                 </div>
-                <br/>
-                <div>      
-                    <input type="range" id="densitywoodslices" name="densitywoodslices" min="10" max="16" value="10" step="1">
-                    <label for="densitywoodslices">Density wood slices</label>
-                </div>
-                <br/>
                 <div>
-                    <input type="range" id="widthwoodslices" name="widthwoodslices" min="0.7" max="1.7" value="0.8" step="0.1">
-                    <label for="widthwoodslices">Width wood slices</label>
+                  <label for="Width up &amp; down">Width up &amp; down</label>
+                  <input type="range" id="Width up &amp; down" min="0.5" max="1" value="0.8" step="1">
                 </div>
-                <br/>
-                <din>
-                    <input type="range" id="thicknesswoodslices" name="thicknesswoodslices" min="0.8" max="1.8" value="0.9" step="0.1">
-                    <label for="thicknesswoodslices">Thickness wood slices</label>
-                </din>
-                
+                <div>
+                  <label for="Width middle">Width middle</label>
+                  <input type="range" id="Width middle" min="1.2" max="2.2" value="1.7" step="1">
+                </div>
+                <div>
+                  <label for="Width wood slices">Width wood slices</label>
+                  <input type="range" id="Width wood slices" min="0.7" max="0.9" value="0.8" step="1">
+                </div>
+                <div><button id="downloadButton" disabled>Download</button></div>
+                <div><a href="LampParametric.gh" download="LampParametric.gh.html">Save source code</a></div>
+            </div>
+        </div>
     </div>              
 
             </div>
