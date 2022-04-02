@@ -153,13 +153,12 @@ for( let j = 0; j < branch.length; j ++) {
   // ...load rhino geometry into doc
   const rhinoObject = decodeItem(branch[j])
 
-
   //GET VALUES
- if (values[i].ParamName == "RH_OUT:data") {
+    //if (values[i].ParamName == "RH_OUT:data") {
     //area = JSON.parse(responseJson.values[i].InnerTree['{ 0; }'][0].data)
-   data = Math.round(branch[j].data)
+    //data = Math.round(branch[j].data)
 
-  console.log(data)
+      //console.log(data)
   }
   //console.log(area)
 

@@ -2,34 +2,12 @@ h1 {
     margin: auto;;
     text-align: center;
     width: 100%;
-    margin: 1rem;
+    margin: 0rem;
     font-size: 40pt;
     font-family: 'arial', sans-serif;
     color: rgb(0, 0, 0);
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    text-shadow:   /0px -6px 0 #212121,  
-                   0px -6px 0 #212121,
-                   0px  6px 0 #212121,
-                   0px  6px 0 #212121,
-                  -6px  0px 0 #212121,  
-                   6px  0px 0 #212121,
-                  -6px  0px 0 #212121,
-                   6px  0px 0 #212121,
-                  -6px -6px 0 #212121,  
-                   6px -6px 0 #212121,
-                  -6px  6px 0 #212121,
-                   6px  6px 0 #212121,
-                  -6px  18px 0 #212121,
-                   0px  18px 0 #212121,
-                   6px  18px 0 #212121,
-                   0 19px 1px rgba(0,0,0,.1),
-                   0 0 6px rgba(0,0,0,.1),
-                   0 6px 3px rgba(0,0,0,.3),
-                   0 12px 6px rgba(0,0,0,.2),
-                   0 18px 18px rgba(0,0,0,.25),
-                   0 24px 24px rgba(0,0,0,.2),
-                   0 36px 36px rgba(0,0,0,.15);
   }
   
   h2 {
@@ -46,21 +24,21 @@ h1 {
   }
   
   h3 {
-    font: 14px 'arial', sans-serif;
+    font: 15px 'arial', sans-serif;
     font-weight: bold;}
   
   h4 {
-    font: 12px 'arial', sans-serif;
+    font: 13px 'arial', sans-serif;
     }
 
-  h5 {font:10px 'arial',sans-serif;
-    /font-weight: bold}
+  h5 {font:11px 'arial',sans-serif;
+    font-weight: bold}
   
-  h6 {font:10px 'arial',sans-serif;
+  h6 {font:11px 'arial',sans-serif;
     font-weight: bold} 
 
   
-  body { margin:6mm; font-family: Arial, Helvetica, sans-serif; background-color:rgb(239, 194, 191); text-align: center;
+  body { margin:6mm; font-family: Arial, Helvetica, sans-serif; background-color:rgb(217, 197, 200); text-align: center;
   }
   canvas {z-index: 1 ; width: 100%; height: 100%; } 
   input {width: 100%;}
@@ -73,19 +51,19 @@ h1 {
   }
   #overlay {z-index: 1;
      font-family:helvetica;
-      width: 10px;
-      margin:4px; 
-      width: 300px;
-      height:50px;
-      background-color: rgba(247, 251, 255, 0.199) ;
+      width: 12px;
+      margin:0px; 
+      width: 350px;
+      height:120px;
+      background-color: rgba(218, 104, 201, 0.718) ;
       padding:0px;
       font-size:medium;
       z-index: 1
   }
   #loader {
       
-      border: 2px solid #f3f3f3; /* Light grey */
-      border-top: 4px solid #222436; /* Grey */
+      border: 2px solid #ff00bf; /* Light grey */
+      border-top: 5px solid #222436; /* Grey */
       border-radius: 50%;
       font-family:helvetica;
       width: 40px;
@@ -102,7 +80,7 @@ h1 {
        } 
 
        .bar1 { padding:2px;
-        ;font-family:helvetica;color: rgb(239, 194, 191); font-weight:600;font-family:helvetica;}
+        ;font-family:helvetica;color: rgb(217, 197, 230); font-weight:600;font-family:helvetica;}
         
        
   .bar {
@@ -111,13 +89,13 @@ h1 {
       }
   .bar p {
           padding:2px;
-       color: rgb(255, 255, 255); 
+       color: rgb(0, 0, 0); 
        font-weight:600;font-family:helvetica;}
   .slider {
           -webkit-appearance:none;
           width: 100%;
           font-family:helvetica;
-          height: 10px;
+          height: 14px;
           background: rgb(255, 0, 242);
           outline: none;
           border-radius: 5px;
@@ -133,8 +111,8 @@ h1 {
                 white-space:nowrap;
                 align-items:center;
                 display:flex;
-                font-weight:600;
-                color: rgb(255, 255, 255)  
+                font-weight:500;
+                color: rgb(0, 0, 0)  
   }
   
   .slider:hover {
@@ -142,8 +120,8 @@ h1 {
     }
   .slider::-webkit-slider-thumb {
           -webkit-appearance: none;
-          width: 20px;
-          height: 20px;
+          width: 17px;
+          height: 17px;
           background: rgb(145, 255, 1);
           border:2px solid #dfe4e6;
           border-radius: 50%;
@@ -151,7 +129,7 @@ h1 {
        }
   
   
-  #cost{ 
+  /*#cost{ 
      color: rgb(255, 255, 255);font-family:helvetica;
      padding-right: 5px;
     }
