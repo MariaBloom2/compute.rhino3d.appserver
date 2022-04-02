@@ -3,9 +3,9 @@ h1 {
     text-align: center;
     width: 100%;
     margin: 1rem;
-    font-size: 60pt;
+    font-size: 40pt;
     font-family: 'arial', sans-serif;
-    color: #fff;
+    color: rgb(0, 0, 0);
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     text-shadow:   /0px -6px 0 #212121,  
