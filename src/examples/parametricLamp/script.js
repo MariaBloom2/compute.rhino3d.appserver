@@ -40,17 +40,17 @@ const inputs = {}
 for (const input of document.getElementsByTagName('input')) {
 switch (input.type) {
 case 'number':
-inputs[input.id] = input.valueAsNumber
-input.onchange = onSliderChange
-break
+  inputs[input.id] = input.valueAsNumber
+  input.onchange = onSliderChange
+  break
 case 'range':
-inputs[input.id] = input.valueAsNumber
-input.onmouseup = onSliderChange
-input.ontouchend = onSliderChange
+  inputs[input.id] = input.valueAsNumber
+  input.onmouseup = onSliderChange
+  input.ontouchend = onSliderChange
 break
 case 'checkbox':
-inputs[input.id] = input.checked
-input.onclick = onSliderChange
+  inputs[input.id] = input.checked
+  input.onclick = onSliderChange
 break
 default:
 break
@@ -74,7 +74,7 @@ THREE.Object3D.DefaultUp = new THREE.Vector3( 0, 0, 1 );
 scene = new THREE.Scene()
 scene.background = new THREE.Color(1, 1, 1)
 camera = new THREE.PerspectiveCamera(45, window.innerWidth / window.innerHeight, 1, 1000)
-camera.position.set(-1, -1, 1) // like perspective view
+camera.position.set(1, -1, 1) // like perspective view
 
 // very light grey for background, like rhino
 scene.background = new THREE.Color('whitesmoke')
@@ -155,12 +155,12 @@ for( let j = 0; j < branch.length; j ++) {
 
 
   //GET VALUES
- // if (values[i].ParamName == "RH_OUT:mesh") {
+ if (values[i].ParamName == "RH_OUT:mesh") {
     //area = JSON.parse(responseJson.values[i].InnerTree['{ 0; }'][0].data)
-   // mesh = Math.round(branch[j].data)
+   mesh = Math.round(branch[j].data)
 
-   // console.log(mesh)
-  //}
+  console.log(mesh)
+  }
   //console.log(area)
 
 
