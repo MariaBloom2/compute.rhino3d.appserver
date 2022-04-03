@@ -154,10 +154,10 @@ for( let j = 0; j < branch.length; j ++) {
   const rhinoObject = decodeItem(branch[j])
 
   //GET VALUES
-    if (values[i].ParamName == "RH_OUT:mesh") {
+    //if (values[i].ParamName == "RH_OUT:") {
     //mesh = JSON.parse(responseJson.values[i].InnerTree['{ 0; }'][0].data)
-    mesh = Math.round(branch[j].data)
-    console.log(mesh)
+    //mesh = Math.round(branch[j].data)
+    //console.log(mesh)
   }
   //console.log(area)
 
