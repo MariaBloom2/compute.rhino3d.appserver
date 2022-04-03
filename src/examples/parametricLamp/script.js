@@ -178,7 +178,7 @@ for( let j = 0; j < branch.length; j ++) {
 if (doc.objects().count < 1) {
 console.error('No rhino objects to load!')
 showSpinner(false)
-return
+//return
 }
 
 // load rhino doc into three.js scene
