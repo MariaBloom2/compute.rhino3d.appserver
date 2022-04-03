@@ -165,7 +165,6 @@ function collectResults(responseJson) {
       }
     }
   }
-
   if (doc.objects().count < 1) {
     console.error("No rhino objects to load!");
     showSpinner(false);

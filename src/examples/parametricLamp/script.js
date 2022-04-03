@@ -174,8 +174,8 @@ for( let j = 0; j < branch.length; j ++) {
 //document.getElementById('area').innerText = "// SURFACE AREA = " + area + " m2"
 
 
-
-if (doc.objects().count < 1) {
+if (doc !== undefined && doc.objects().count<1)
+{
 console.error('No rhino objects to load!')
 showSpinner(false)
 //return
@@ -210,7 +210,7 @@ downloadButton.disabled = false
 // zoom to extents
 zoomCameraToSelection(camera, controls, scene.children)
 })
-}
+
 
 /**
 * Attempt to decode data tree item to rhino geometry
